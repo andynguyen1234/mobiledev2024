@@ -1,6 +1,6 @@
 USTH ICT Android Development 2024
 ========================================
 
-* **Your ID**
-* **Your name**
-* **Your class**
+ID: 22BI13106
+Name: Nguyen Duc Dung
+Class: ICT Class 1
