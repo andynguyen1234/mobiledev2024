@@ -1,8 +1,8 @@
 package vn.edu.usth.weather;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class WeatherActivity extends AppCompatActivity {
 
@@ -12,11 +12,17 @@ public class WeatherActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
-        Log.i(TAG, "=== APP CREATED ===");
 
         ForecastFragment firstFragment = new ForecastFragment();
-        getSupportFragmentManager().beginTransaction().add(R.id.container, firstFragment).commit();
+        getSupportFragmentManager().beginTransaction().add(R.id.main, firstFragment).commit();
+
+        Log.i(TAG, "=== APP CREATED ===");
     }
+
+    public WeatherActivity() {
+        super();
+    }
+
 
     @Override
     protected void onStart() {
