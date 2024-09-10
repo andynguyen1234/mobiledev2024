@@ -1,10 +1,16 @@
 package vn.edu.usth.weather;
 
 import android.os.Bundle;
+
 import androidx.fragment.app.Fragment;
+
+import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
