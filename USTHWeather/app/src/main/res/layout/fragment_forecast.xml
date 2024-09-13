@@ -23,7 +23,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:paddingRight="10dp"
-            android:text="Monday"
+            android:text="@string/monday"
             android:textSize="20dp" />
 
         <ImageView
@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="20dp"
-            android:text="Sunny"
+            android:text="@string/sunny"
             android:gravity="center"/>
     </LinearLayout>
 
@@ -51,7 +51,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:paddingRight="10dp"
-            android:text="Tuesday"
+            android:text="@string/tuesday"
             android:textSize="20dp" />
 
         <ImageView
@@ -63,7 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="20dp"
-            android:text="Cloudy"
+            android:text="@string/cloudy"
             android:gravity="center"/>
 
     </LinearLayout>
@@ -80,7 +80,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:paddingRight="10dp"
-            android:text="Wednesday"
+            android:text="@string/wednesday"
             android:textSize="20dp" />
 
         <ImageView
@@ -91,7 +91,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Half-sunny"
+            android:text="@string/halfsunny"
             android:textSize="20dp"
             android:gravity="center"/>
 
@@ -109,7 +109,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:paddingRight="10dp"
-            android:text="Thursday"
+            android:text="@string/thursday"
             android:textSize="20dp" />
 
         <ImageView
@@ -121,7 +121,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="20dp"
-            android:text="Rainy"
+            android:text="@string/rainy"
             android:gravity="center"/>
 
     </LinearLayout>
@@ -138,7 +138,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:paddingRight="10dp"
-            android:text="Friday"
+            android:text="@string/friday"
             android:textSize="20dp" />
 
         <ImageView
@@ -150,7 +150,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="20dp"
-            android:text="Snowy"
+            android:text="@string/snowy"
             android:gravity="center"/>
 
     </LinearLayout>
@@ -167,19 +167,19 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:paddingRight="10dp"
-            android:text="Saturday"
+            android:text="@string/saturday"
             android:textSize="20dp" />
 
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/windy" />
+            android:src="@drawable/windy"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="20dp"
-            android:text="Windy"
+            android:text="@string/windy"
             android:gravity="center"/>
 
     </LinearLayout>
@@ -196,7 +196,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:paddingRight="10dp"
-            android:text="Sunday"
+            android:text="@string/sunday"
             android:textSize="20dp" />
 
         <ImageView
@@ -208,7 +208,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="20dp"
-            android:text="Sunny"
+            android:text="@string/sunny"
             android:gravity="center"/>
     </LinearLayout>
 

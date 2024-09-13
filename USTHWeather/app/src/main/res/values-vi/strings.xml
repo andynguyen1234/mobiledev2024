@@ -44,19 +44,19 @@
     </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="ha_noi">Hanoi</string>
-    <string name="_30c_n_sunny">30C \n Sunny</string>
-    <string name="monday">Monday</string>
-    <string name="tuesday">Tuesday</string>
-    <string name="wednesday">Wednesday</string>
-    <string name="thursday">Thursday</string>
-    <string name="friday">Friday</string>
-    <string name="saturday">Saturday</string>
-    <string name="sunday">Sunday</string>
-    <string name="sunny">Sunny</string>
-    <string name="cloudy">Cloudy</string>
-    <string name="rainy">Rainy</string>
-    <string name="snowy">Snowy</string>
-    <string name="halfsunny">Half-sunny</string>
-    <string name="windy">Windy</string>
+    <string name="ha_noi">Hà Nội</string>
+    <string name="_30c_n_sunny">30C \n Nắng to</string>
+    <string name="monday">Thứ 2</string>
+    <string name="tuesday">Thứ 3</string>
+    <string name="wednesday">Thứ 4</string>
+    <string name="thursday">Thứ 5</string>
+    <string name="friday">Thứ 6</string>
+    <string name="saturday">Thứ 7</string>
+    <string name="sunday">Chủ Nhật</string>
+    <string name="sunny">Nắng to</string>
+    <string name="cloudy">Nhiều mây</string>
+    <string name="rainy">Có mưa</string>
+    <string name="snowy">Có tuyêt</string>
+    <string name="halfsunny">Có chút nắng</string>
+    <string name="windy">Gió</string>
 </resources>

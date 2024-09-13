@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:text="30C Sunny"
+        android:text="@string/_30c_n_sunny"
         android:textSize="20dp" />
 
     <ImageView
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:text="Hanoi"
+        android:text="@string/ha_noi"
         android:textSize="20dp" />
 
 </RelativeLayout>
