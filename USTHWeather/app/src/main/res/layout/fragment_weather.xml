@@ -13,8 +13,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="159dp"
-        android:layout_marginTop="250dp"
         android:text="30C Sunny"
         android:textSize="20dp" />
 
@@ -28,8 +26,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="177dp"
-        android:layout_marginTop="200dp"
         android:text="Hanoi"
         android:textSize="20dp" />
 
