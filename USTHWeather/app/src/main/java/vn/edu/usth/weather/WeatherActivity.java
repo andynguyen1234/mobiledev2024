@@ -10,11 +10,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.viewpager.widget.ViewPager;
+import com.google.android.material.tabs.TabLayout;
 
 
 public class WeatherActivity extends AppCompatActivity {
     private ViewpagerAdapter viewpagerAdapter;
     private ViewPager viewPager;
+    private TabLayout tabLayout;
     private static final String TAG = "WeatherActivity";
 
     @Override
@@ -26,6 +28,9 @@ public class WeatherActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.Viewpager);
         viewpagerAdapter = new ViewpagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(viewpagerAdapter);
+
+        tabLayout = (TabLayout) findViewById(R.id.tab);
+        tabLayout.setupWithViewPager(viewPager);
 
         Log.i(TAG, "=== APP CREATED ===");
 
