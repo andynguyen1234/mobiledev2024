@@ -4,14 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
     tools:context=".WeatherAndForecastFragment">
 
     <fragment
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="600px"
         android:id="@+id/weatherFragment"
         android:name="vn.edu.usth.weather.WeatherFragment"
-        tools:layout="@layout/fragment_forecast" />
+        android:layout_marginBottom="40px"
+        tools:layout="@layout/fragment_weather" />
     <fragment
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
